@@ -67,7 +67,8 @@ public class WeatherData {
 
 - 옵저버 패턴 구현은 대부분 주제(Subject) 인터페이스와 옵저버(Observer) 인터페이스가 들어있는 클래스 디자인을 바탕으로 합니다.
 
-![Untitled](2%20%E1%84%8B%E1%85%A9%E1%86%B8%E1%84%8C%E1%85%A5%E1%84%87%E1%85%A5%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%2020a35e37963d40c1833176f3a81f5129/Untitled.png)
+<img width="491" alt="스크린샷 2021-10-26 오후 5 19 47" src="https://user-images.githubusercontent.com/48742165/138837131-b11343d2-9c1e-494f-b69c-097166a1d959.png">
+
 
 **Subject 인터페이스** 
 
