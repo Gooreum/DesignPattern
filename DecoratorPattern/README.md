@@ -10,7 +10,8 @@
 - 핵심은 커피이고, 나머지는 커피 위에 올라가는 장식인데 각각의 경우를 위한 서브클래스들을 만들어 관리하는 것은 매우 비효율적으로 보입니다. 만약 모카가 추가된 HouseBlendWithMocha 메뉴를 판매하지 않느다면 기껏 만들어 놓은 해당 클래스를 삭제해줘야 하는 번거러움이 생기겠죠.
 - 그렇다면 HouseBlend 커피만 만들어 놓고, 해당 커피에 올라가는 모카, 우유, 휘핑크림등의 장식을 런타임시 추가 해줄수 있는 방법은 없을까요?
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2fb5773b-3d95-4c83-b2e7-e92386b39e58/Untitled.png)
+![데코레이터1](https://user-images.githubusercontent.com/48742165/139672109-57eb8650-db67-4651-84d5-3109d86b02fa.png)
+
 
 ### **OCP(Open-Closed Principle)**
 
@@ -29,7 +30,7 @@
 
 - 데코레이터 패턴을 사용한다는 것은 아래의 다이어그램으로 표현해볼 수 있습니다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a453608b-be49-4042-9b14-617ceeeb58a7/Untitled.png)
+    ![데코레이터2](https://user-images.githubusercontent.com/48742165/139672138-521d50db-8374-4e89-b66f-9d280fb81c44.png)
     
 
 **Component**
@@ -56,7 +57,7 @@
 
 ### Beverage 클래스를 장식해봅시다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fd101aa9-da2d-40d4-8f74-614e972cc98f/Untitled.png)
+![데코레이터3](https://user-images.githubusercontent.com/48742165/139672158-9e6a95d2-d85e-447e-888e-737177734ac4.png)
 
 ### **코드로 살펴봅시다**
 
