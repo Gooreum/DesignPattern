@@ -213,7 +213,8 @@
 - 처음 PizzaStore와 Pizza 관계를 다이어그램으로 보면 고수준 구성요소인 PizzaStore가 저수준 구성요소 NYCheeseStylePizza를 향해 아래로 향하는 의존성 방향이 생겼습니다.
 - 그런데 PizzaStore가 Pizza 인터페이스를 향해 의존하게 함으로써 의존방향이 아래보다 위로 향하게 됩니다. 이러한 방향의 변화를 보면 왜 의존성이 역전되었다고 말하는지 이해할 수 있을것 같습니다. (물론 NYCheeseStylePizza는 Pizza를 구현하는 구상 클래스이어야 합니다.)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/465ee1b7-1239-4222-90b5-ae3192012f92/Untitled.png)
+![팩토리](https://user-images.githubusercontent.com/48742165/139816732-e60cf123-5cd4-450b-a5cd-f70d4be00637.png)
+
 
 - 또한 제일 처음 작성한 PizzaStore 코드에 의존성 문제가 있다고 언급했습니다.
 - 의존성 역전 원칙에 따르면 고수준 구성요소인 PizzaStore는 저수준 구성요소인 NYCheesStylePizza에 의존해서는 안됩니다. 그런데 처음 PizzaStore는 이러한 원칙에 완전히 위배된 코드입니다.
