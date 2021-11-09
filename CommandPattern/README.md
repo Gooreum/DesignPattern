@@ -57,7 +57,7 @@ public class LightOnCommand: Command {
 }
 ```
 
-- `주석 1` : 우리가 만들어야 할 리모컨은 전등을 On 할수 있어야 하므로, 클라이언트가 리모컨을 눌렀을때 전등을 on하라는 명령을 내릴 Command 인터페이스를 구현하는 LightOnCommand를 생성해주어야 합니다.
+- `주석 1` : 우리가 만들어야 할 리모컨은 전등을 On 할수 있어야 하므로, 클라이언트가 리모컨을 눌렀을때 전등을 on하라는 명령을 내릴 Command 인터페이스를 구현하는 LightOnCommand를 정의해주어야 합니다.
 - `주석 2` : 앞서 커맨드는 리시버(전등)을 알아야 된다고 했으므로, LightOnCommand에서는 전등을 가지고 있어야 합니다.
 - `주석 3`: LightOnCommand는 구체 클래스이므로 execute()에서 전등을 on 하라는 명령을 수행합니다.
 
