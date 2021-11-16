@@ -62,3 +62,5 @@ remote.buttonWasPressed()
 
 remote.setCommand(command: garageDoorOpen)
 remote.buttonWasPressed()
+
+
